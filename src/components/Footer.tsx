@@ -25,7 +25,7 @@ export const Footer: React.FC = () => {
           With Love, Until Then
         </h2>
         <p className="font-sans text-[11px] font-bold tracking-[0.35em] uppercase mb-7 text-gray-900/30">
-          05/01/2027
+          24/10/2026
         </p>
         
         <div>
@@ -41,6 +41,10 @@ export const Footer: React.FC = () => {
               <line x1="134" y1="12" x2="220" y2="12" stroke="#A0A0A0" strokeWidth="0.75" strokeOpacity="0.55" />
             </svg>
           </div>
+        </div>
+
+        <div className="mt-12 text-xs font-sans text-gray-900/50 uppercase tracking-widest font-medium">
+          Organz by - <a href="https://fb.com/rositarohan" target="_blank" rel="noopener noreferrer" className="hover:text-[#A68846] transition-colors font-bold">ROSITAROHAN PHOTOGRAPHY</a>
         </div>
         
 

@@ -49,7 +49,7 @@ export const HeroContent: React.FC = () => {
             </motion.div>
           )}
           <span className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-serif tracking-[0.15em] text-[#A68846] uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
-            DASNI
+            SUPUN
           </span>
           <div className="flex items-center gap-3 opacity-90">
             <div className="h-[1px] w-8 sm:w-16 bg-[#A68846]"></div>
@@ -59,7 +59,7 @@ export const HeroContent: React.FC = () => {
             <div className="h-[1px] w-8 sm:w-16 bg-[#A68846]"></div>
           </div>
           <span className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-serif tracking-[0.15em] text-[#A68846] uppercase drop-shadow-[0_2px_4px_rgba(0,0,0,0.5)]">
-            THARAKA
+            HIMASARA
           </span>
         </h1>
       </motion.div>

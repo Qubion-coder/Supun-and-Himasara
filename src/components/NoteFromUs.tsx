@@ -46,15 +46,15 @@ export const NoteFromUs: React.FC = () => {
             </div>
             <p className="font-display font-bold italic leading-[1.4] px-2 text-center" style={{ fontSize: "clamp(1.2rem, 3.5vw, 1.8rem)", color: "rgba(158,123,34, 0.9)", marginTop: "-1rem" }}>
               <span className="block mt-4 mb-4 text-[#B8942A] uppercase tracking-wider font-sans text-sm md:text-base">
-                Mr. Pradeep Pathirana &amp; Mrs. Nalindra Sugunawardhana<br/>
+                Mr. Emmanuel Appuhami &amp; Mrs. Sandamali Fernando<br/>
                 together with<br/>
-                Mr. Kapila Herath &amp; Mrs. Erandi Kuruppu
+                Late Mr. Lesley Fernando &amp; Mrs. Dilukshi Perera
               </span>
               <span className="uppercase tracking-wide font-sans text-xs md:text-sm leading-relaxed block mt-6 mb-6">
                 Request the honour of the presence of to celebrate the wedding of their children
               </span>
               <span className="font-serif text-3xl md:text-5xl text-[#B8942A] block my-6">
-                Dasni &amp; Tharaka
+                Supun &amp; Himasara
               </span>
               <span className="uppercase tracking-wide font-sans text-xs md:text-sm leading-relaxed block mt-6 text-[#B8942A]">
                 Join us as we celebrate love, laughter and the beginning of a beautiful journey together
@@ -69,7 +69,7 @@ export const NoteFromUs: React.FC = () => {
                 <div className="h-px w-12 sm:w-16" style={{ background: "linear-gradient(270deg, transparent, #A0A0A0cc)" }} />
               </div>
               <p className="font-serif text-2xl sm:text-3xl" style={{ color: "#B8942A" }}>
-                Dasni &amp; Tharaka
+                Supun &amp; Himasara
               </p>
             </div>
           </motion.div>

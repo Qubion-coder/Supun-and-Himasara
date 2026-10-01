@@ -24,7 +24,7 @@ function LandingPage() {
   const [isMusicPlaying, setIsMusicPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  const weddingDate = new Date('2027-01-05T08:30:00');
+  const weddingDate = new Date('2026-10-24T18:00:00');
 
   const startMusic = () => {
     if (audioRef.current && !isMusicPlaying) {

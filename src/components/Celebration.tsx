@@ -40,12 +40,12 @@ export const Celebration: React.FC = () => {
             transition={{ duration: 0.8 }}
           >
             <div className="space-y-4 text-sm sm:text-base font-bold leading-relaxed font-sans uppercase tracking-wider flex flex-col items-center" style={{ color: "#91763A", textShadow: "0 0 20px rgba(255,255,255,1), 0 0 10px rgba(255,255,255,0.9)" }}>
-              <p>Tuesday, 5th of January 2027</p>
-              <p>8.30 am onwards</p>
-              <p>The Grand Ballroom Hilton Colombo</p>
-              <p className="text-xs opacity-90 mb-4" style={{ textTransform: 'none', letterSpacing: 'normal', fontStyle: 'italic' }}>(Poruwa Ceremony at 9.00 AM)</p>
+              <p>Saturday, 24th of October 2026</p>
+              <p>From 18.00 to 23.00</p>
+              <p>Fledge Reception Hall</p>
+              <p className="text-xs opacity-90 mb-4" style={{ textTransform: 'none', letterSpacing: 'normal', fontStyle: 'italic' }}>(Piazza Don Enrico Mapelli 50, 20099, Sesto San Giovanni, MI)</p>
               <a 
-                href="https://www.google.com/maps/search/Hilton+Colombo" 
+                href="https://maps.app.goo.gl/2hkYpB7EgmZrDRgXA" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="inline-block mt-6 px-8 py-3 border border-[#B8942A]/50 bg-white/95 text-[#91763A] rounded-full text-xs font-extrabold hover:bg-white hover:scale-105 transition-all shadow-[0_4px_15px_rgba(0,0,0,0.1)] uppercase tracking-[0.2em]"

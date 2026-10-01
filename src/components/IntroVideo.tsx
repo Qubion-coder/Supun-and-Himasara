@@ -48,7 +48,7 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
                   The Wedding Invitation
                 </span>
                 <span className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-serif tracking-[0.15em] text-[#111111] uppercase drop-shadow-[0_2px_10px_rgba(255,255,255,0.4)]">
-                  DASNI
+                  SUPUN
                 </span>
                 <div className="flex items-center gap-3 opacity-90">
                   <div className="h-[1px] w-8 sm:w-16 bg-[#111111]/60"></div>
@@ -58,7 +58,7 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
                   <div className="h-[1px] w-8 sm:w-16 bg-[#111111]/60"></div>
                 </div>
                 <span className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-serif tracking-[0.15em] text-[#111111] uppercase drop-shadow-[0_2px_10px_rgba(255,255,255,0.4)]">
-                  THARAKA
+                  HIMASARA
                 </span>
               </h1>
               <button
