@@ -1,11 +1,14 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { useSearchParams } from 'react-router-dom';
+import { useParams, useSearchParams } from 'react-router-dom';
 
 export const HeroContent: React.FC = () => {
+  const { guestName } = useParams();
   const [searchParams] = useSearchParams();
-  const prefix = searchParams.get('prefix');
-  const name = searchParams.get('name');
+  const oldPrefix = searchParams.get('prefix');
+  const oldName = searchParams.get('name');
+  
+  const displayName = guestName || (oldPrefix && oldName ? `${oldPrefix} ${oldName}` : null);
 
   return (
     <section aria-label="Hero — Save the Date" className="relative min-h-[100dvh] w-full overflow-hidden flex items-center justify-center bg-[#111111]">
@@ -35,7 +38,7 @@ export const HeroContent: React.FC = () => {
         transition={{ duration: 1.5, ease: "easeOut" }}
       >
         <h1 className="flex flex-col items-center gap-3">
-          {prefix && name && (
+          {displayName && (
             <motion.div 
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -44,7 +47,7 @@ export const HeroContent: React.FC = () => {
             >
               <span className="text-[#111111] uppercase tracking-widest text-xs sm:text-sm font-extrabold mb-3 bg-white/60 px-4 py-1 rounded-full backdrop-blur-sm border border-white/50 shadow-sm">We cordially invite</span>
               <span className="text-xl sm:text-3xl md:text-4xl font-serif text-[#91763A] text-center px-4 leading-tight" style={{ textShadow: "0 0 20px rgba(255,255,255,1), 0 0 10px rgba(255,255,255,0.9)" }}>
-                {prefix} {name}
+                {displayName}
               </span>
             </motion.div>
           )}

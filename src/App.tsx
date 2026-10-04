@@ -7,8 +7,7 @@ import { Countdown } from './components/Countdown';
 import { Celebration } from './components/Celebration';
 import { NoteFromUs } from './components/NoteFromUs';
 import { Timeline } from './components/Timeline';
-// Removed Gallery import
-
+import { Gallery } from './components/Gallery';
 import { RSVPForm } from './components/RSVPForm';
 import { Footer } from './components/Footer';
 import { IntroVideo } from './components/IntroVideo';
@@ -123,6 +122,8 @@ function LandingPage() {
 
             <Timeline />
 
+            <Gallery />
+
             <Countdown targetDate={weddingDate} />
 
             <Celebration />
@@ -149,6 +150,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/admin" element={<AdminPage />} />
+        <Route path="/:guestName" element={<LandingPage />} />
       </Routes>
     </Router>
   );
