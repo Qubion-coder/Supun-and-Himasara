@@ -46,7 +46,7 @@ export const HeroContent: React.FC = () => {
               className="mb-8 flex flex-col items-center"
             >
               <span className="text-[#111111] uppercase tracking-widest text-xs sm:text-sm font-extrabold mb-3 bg-white/60 px-4 py-1 rounded-full backdrop-blur-sm border border-white/50 shadow-sm">We cordially invite</span>
-              <span className="text-xl sm:text-3xl md:text-4xl font-serif text-[#91763A] text-center px-4 leading-tight" style={{ textShadow: "0 0 20px rgba(255,255,255,1), 0 0 10px rgba(255,255,255,0.9)" }}>
+              <span className="text-xl sm:text-3xl md:text-4xl font-serif text-[#8B0000] text-center px-4 leading-tight" style={{ textShadow: "0 0 20px rgba(255,255,255,1), 0 0 10px rgba(255,255,255,0.9)" }}>
                 {displayName}
               </span>
             </motion.div>
